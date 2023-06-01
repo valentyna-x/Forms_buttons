@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form method="GET" class="form">
+                <div class="form_block">
+                    <label for="name"> Ваше ім'я </label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form_block">
+                    <label for="email"> Email </label>
+                    <input type="email" placeholder="">
+                </div>
+                <div class="form_block" >
+                    <label for="password">  Пароль </label>
+                    <input type="password" placeholder="">
+                </div>
+                <div class="form_block">
+                    <label for="password"> Пароль ще раз </label>
+                    <input type="password" placeholder="">
+                </div>
+                <div class="form_block">
+                    <label for="gender"> Cтать </label>
+                    <label style="width: 120px;">
+                        <input class="gender" type="radio" name="gender" value="чоловіча">чоловіча
+                    </label>
+                    <label style="width: 120px;">
+                        <input class="gender" type="radio" name="gender" value="жіноча">жіноча
+                    </label>
+                </div>
+                <div class="form_block">
+                    <label for="age"> Вік </label>
+                    <input class="age"  type="text" placeholder="">
+                </div>
+                <div class="form_block">
+                    <label for="course"> Курс </label>
+                    <select class="course" name="course">
+                        <option selected>-=Виберіть курс=-</option>
+                        <option value="fe">Front-End</option>
+                        <option value="be">Back-End</option>
+                        <option value="pm">Project Management</option>
+                        <option value="qa">QA Manual</option>
+                    </select>
+                </div>
+                <div class="form_block">
+                    <label class="adress" for="adress"> Повна адреса </label>
+                    <input class="adress" type="text" placeholder="Країна, регіон, місто/селище, вулиця">
+                </div>
+                <div class="form_block">
+                    <label style="width: 520px;"class="agree">
+                        <input class="agree" type="checkbox" name="agree" value="agree"> <span>Я погоджуюся з обробкою персональних даних </span> 
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button class="buttons__btn">Очистити форму</button>
+                    <button class="buttons__btn">Зареєструватися</button>
+                </div>
+
+
+
+
+
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

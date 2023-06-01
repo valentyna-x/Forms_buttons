@@ -1,0 +1,82 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-size: var(--main-font-size);
+    background: var(--main-background);
+    color: var(--main-color-text);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.form {
+    max-width: 600px;
+    background: #bac2cd;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    max-width: 240px;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+}
+
+.form div {
+    margin-bottom: 22px;
+}
+
+.form label {
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.course {
+    width: 240px;
+}
+
+.gender {
+    display: inline;
+    width: 30px;
+}
+
+.age {
+    width: 50px;
+}
+
+.adress {
+    width: 240px;
+    height: 180px;
+}
+.agree {
+    width: 800px;
+}
+
+.form input[type="radio"], 
+.form input[type="checkbox"] {
+    width: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: right;
+}
+.buttons__btn {
+    width: 60%;
+    min-width: 100px;
+    padding: 8px 0;
+}
